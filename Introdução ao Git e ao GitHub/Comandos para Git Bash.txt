@@ -1,0 +1,25 @@
+--global 
+--system 
+--local 
+----------------------------
+git config --global --show-origin credential.helper
+git clone URL nome-do-diretorio-local
+cat .gitconfig
+cat .git-credentials
+git remote add origin URL
+git clone URL --branch feature-1 --single-branch 
+git add NOME DO ARQUIVO
+git commit -m "comentário"
+git status --> Status do commits e da working tree
+git log --> Histórico de alterações
+git restore --> restaura um arquivo 
+git reset --(soft, mixed and hard)
+git pull --> puxa as alterações do repositório remoto
+git checkout NOME DA BRANCH
+
+mkdir --> Cria um diretório 
+touch LOCAL/NOME DO ARQUIVO.EXTENSÃO --> Cria um arquivo no diretório 
+
+Arquivos não rastreados => arquivos que o git não conhece. 
+
+
